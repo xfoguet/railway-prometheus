@@ -21,7 +21,7 @@ scrape_configs:
   - job_name: 'share_pass'
     scrape_interval: 5s
     static_configs:
-      - targets: ['redis-deadpool-actix-web.railway.internal:80']
+      - targets: ['redis-deadpool-actix-web.railway.internal']
 
   # - job_name: 'postgres'
   #   scrape_interval: 5s
